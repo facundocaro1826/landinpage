@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,600;1,400&family=Open+Sans:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    
+ }
+
+#contenedor_header{
+    display: flex;
+    border-style: groove;
+    background-image: url(imagenes/fondo_heard.jpg);
+    padding-top: 50px;
+    justify-content: center;
+    width: auto;
+    color: rgb(111, 109, 109);
+    height: 150px;
+    border-color: bisque;
+}
+h1{
+    text-align: center;
+}
+#contenedor_cuerpo{
+   display: inline-block;
+   background:linear-gradient(0deg, rgb(220, 220, 217), transparent) ;
+   width: auto;
+   height: auto;
+   text-align: center;
+   padding-bottom: 30px;
+}
+.listas{
+        list-style-type: none;
+        display: inline-block;
+        font-size: 20px;
+       align-content: flex-start;
+       
+        }
+a {
+    color: rgb(166, 241, 241);
+}
+#contenedor_contacto{
+   
+    background:linear-gradient(rgba(5, 7, 12, 0.55), rgba(5, 7, 12, 0.55)), url(imagenes/fondo.jpg) ;
+    background-position: center center;
+    height: 700px;
+    
+}
+.titulo_claro{
+   text-align: center;
+   padding-top: 40px;
+   color: rgb(204, 204, 201);
+}
+p{
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    padding-top: 30px;
+    margin-top: 60px;
+    color: rgb(61, 61, 60);
+    }
+
+#ubicacion{
+    width: auto;
+    background-color: rgb(242, 242, 239);
+    height: auto;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+     justify-content: center;
+     padding-bottom: 20px;
+    }    
+.parrafo{
+   
+    color: rgb(213, 130, 130);
+    text-align: center;
+}
+.ubicacion{
+    padding-top: 20px;
+    color: rgb(213, 130, 130);
+    text-align: center;
+}
+#mapa{
+    background-color: rgb(242, 242, 239);
+    margin: auto;
+    width: 80%;
+}
+
+footer{
+    background-image: url(imagenes/fondo_footer.jpg);
+    border-style: groove; 
+    border-color: bisque;
+    padding-bottom: 20px;
+}
+.footer{
+    color: antiquewhite;
+}
+#whatsapp{
+    justify-content: flex-end;
+}
+
+@media screen and (max-width:1420px){
+   
+         #contenedor_cuerpo{
+        height: auto;
+    }
+    
+}
+@media screen and (max-width:900px){
+   
+    #contenedor_cuerpo{
+        height: auto;
+    }
+}
+
+@media screen and (max-width:470px){
+    
+    #contenedor_cuerpo{
+        height: auto;
+    }
+    
+}
+
